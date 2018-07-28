@@ -1,0 +1,436 @@
+{
+  "index_name": "9ef84268-d588-465a-a308-a864a43d0070",
+  "title": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+  "desc": "Current Daily Price of Various Commodities from Various Markets (Mandi)",
+  "created": 1527228843,
+  "updated": 1532590352,
+  "created_date": "2018-05-25T11:44:03Z",
+  "updated_date": "2018-07-26T13:02:32Z",
+  "active": "1",
+  "visualizable": "1",
+  "catalog_uuid": "6141ea17-a69d-4713-b600-0a43c8fd9a6c",
+  "source": "data.gov.in",
+  "org_type": "Central",
+  "org": [
+    "Ministry of Agriculture and Farmers Welfare",
+    "Department of Agriculture, Cooperation and Farmers Welfare",
+    "Directorate of Marketing and Inspection (DMI)"
+  ],
+  "sector": [
+    "Agriculture",
+    "Agricultural Marketing"
+  ],
+  "field": [
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "type": "double"
+    },
+    {
+      "id": "state",
+      "name": "state",
+      "type": "keyword"
+    },
+    {
+      "id": "district",
+      "name": "district",
+      "type": "keyword"
+    },
+    {
+      "id": "market",
+      "name": "market",
+      "type": "keyword"
+    },
+    {
+      "id": "commodity",
+      "name": "commodity",
+      "type": "keyword"
+    },
+    {
+      "id": "variety",
+      "name": "variety",
+      "type": "keyword"
+    },
+    {
+      "id": "arrival_date",
+      "name": "arrival_date",
+      "type": "date"
+    },
+    {
+      "id": "min_price",
+      "name": "min_price",
+      "type": "double"
+    },
+    {
+      "id": "max_price",
+      "name": "max_price",
+      "type": "double"
+    },
+    {
+      "id": "modal_price",
+      "name": "modal_price",
+      "type": "double"
+    }
+  ],
+  "target_bucket": {
+    "index": "9ef84268-d588-465a-a308-a864a43d0070",
+    "type": "9ef84268-d588-465a-a308-a864a43d0070"
+  },
+  "status": "ok",
+  "message": "Resource detail",
+  "total": 3142,
+  "count": 29,
+  "limit": "29",
+  "offset": "233",
+  "records": [
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Apple",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 4000,
+      "max_price": 15000,
+      "modal_price": 10000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Banana",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1400,
+      "max_price": 1500,
+      "modal_price": 1400
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2200,
+      "max_price": 2500,
+      "modal_price": 2200
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Bitter gourd",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1200,
+      "max_price": 1500,
+      "modal_price": 1200
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Bottle gourd",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1500,
+      "max_price": 2000,
+      "modal_price": 1500
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Brinjal",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1000,
+      "max_price": 1500,
+      "modal_price": 1000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Cabbage",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1000,
+      "max_price": 1200,
+      "modal_price": 1000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Capsicum",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 4000,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Cauliflower",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 3000,
+      "max_price": 4000,
+      "modal_price": 3500
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Cluster beans",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 3000,
+      "max_price": 3500,
+      "modal_price": 3000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1500,
+      "max_price": 1800,
+      "modal_price": 1500
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Ginger(Dry)",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Green Peas",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 5000,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Guava",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 3000,
+      "max_price": 3500,
+      "modal_price": 3000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Lemon",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2000,
+      "max_price": 2200,
+      "modal_price": 2000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Mango",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2200,
+      "max_price": 3500,
+      "modal_price": 2200
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Mousambi(Sweet Lime)",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2500,
+      "max_price": 2500,
+      "modal_price": 2500
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1500,
+      "max_price": 1700,
+      "modal_price": 1600
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Peach",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1200,
+      "max_price": 1500,
+      "modal_price": 1200
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Plum",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 6500,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Pomegranate",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 5000,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1000,
+      "max_price": 1100,
+      "modal_price": 1000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Pumpkin",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 600,
+      "max_price": 700,
+      "modal_price": 600
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Raddish",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1000,
+      "max_price": 1000,
+      "modal_price": 1000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Spinach",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1000,
+      "max_price": 1200,
+      "modal_price": 1000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Sponge gourd",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2000,
+      "max_price": 2500,
+      "modal_price": 2000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Tinda",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2500,
+      "max_price": 3000,
+      "modal_price": 2500
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 2500,
+      "max_price": 3700,
+      "modal_price": 3000
+    },
+    {
+      "timestamp": 1532590333,
+      "state": "Haryana",
+      "district": "Fatehabad",
+      "market": "Fatehabad",
+      "commodity": "Water Melon",
+      "variety": "Other",
+      "arrival_date": "2018-07-26T13:02:15Z",
+      "min_price": 1500,
+      "max_price": 1800,
+      "modal_price": 1500
+    }
+  ],
+  "version": "2.1.0"
+}
